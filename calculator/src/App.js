@@ -1,14 +1,17 @@
-
 import './App.css';
 import { useState } from "react";
 function App() {
+
   const [Data, setData] = useState("")
+
   const answer = (string) => {
     return (Number(string))
   }
+
   const output = () => {
     return setData(eval(Data.toString()))
   }
+
   return (
     <div className="whole-container">
       <h2>Calculator</h2>
