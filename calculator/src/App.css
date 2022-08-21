@@ -1,0 +1,38 @@
+.whole-container {
+  width: 60%;
+  height: 80%;
+  background-color: lightgrey;
+  margin: 5% 0 0 15%;
+  border-radius: 15px;
+}
+
+h2 {
+  text-align: center;
+  color: cadetblue;
+}
+
+.grid-contain {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  width: 60%;
+  margin-left: 20%;
+  row-gap: 10px;
+  column-gap: 10px;
+  margin-bottom: 10%;
+
+}
+
+.input {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-color: white;
+  border-radius: 10px;
+}
+
+button {
+  width: 80px;
+  height: 50px;
+  font-size: x-large;
+  border-radius: 5px;
+  cursor: pointer;
+}
